@@ -1,0 +1,24 @@
+{
+  "name": "social_links_tree",
+  "version": "1.0.0",
+  "description": "A website that directs you to all your social media profiles",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkmorgan1/social_links_tree.git"
+  },
+  "author": "Matthew Morgan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkmorgan1/social_links_tree/issues"
+  },
+  "homepage": "https://github.com/mkmorgan1/social_links_tree#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "pm2": "^5.2.0"
+  }
+}

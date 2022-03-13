@@ -1,0 +1,12 @@
+body {
+  text-align: center;
+  align-items: center;
+}
+
+div {
+  width: 50vw;
+  height: 50vh;
+  border: 1px;
+  margin: auto;
+  border-style: dashed;
+}

@@ -3,7 +3,7 @@ body {
   align-items: center;
 }
 
-div {
+div.link-box {
   width: 50vw;
   height: 50vh;
   border: 1px;

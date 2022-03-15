@@ -1,12 +1,28 @@
 body {
   text-align: center;
   align-items: center;
+  font-family: "Roboto", sans-serif;
 }
 
-div.link-box {
+.link-box {
   width: 50vw;
   height: 50vh;
   border: 1px;
   margin: auto;
   border-style: dashed;
+  padding: 10px;
+}
+
+.link {
+  margin: 10px auto;
+  width: 40vw;
+  padding: 20px;
+  text-align: left;
+  font-size: 20px;
+
+  /* border: 1px;
+  border-style: solid; */
+  border-radius: 50px;
+
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }

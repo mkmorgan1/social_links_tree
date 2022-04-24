@@ -10,7 +10,6 @@ body {
 
 .app {
   text-align: center;
-
   display: table-cell;
   vertical-align: middle;
 }

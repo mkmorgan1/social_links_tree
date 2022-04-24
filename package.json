@@ -4,9 +4,9 @@
   "description": "A website that directs you to all your social media profiles",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon scripts.js",
+    "dev": "nodemon index.js",
     "start": "node scripts.js",
-    "build": "webpack build",
+    "build": "webpack watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

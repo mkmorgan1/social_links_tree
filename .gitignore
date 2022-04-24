@@ -4,4 +4,4 @@ npm-debug.log
 .env
 .DS_Store
 package-lock.json
-pubilic/bundle.js*
+public/bundle.js*

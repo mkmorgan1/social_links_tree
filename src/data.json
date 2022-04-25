@@ -4,9 +4,24 @@
     "name": "Twitter",
     "icon": "fa-brands fa-twitter"
   },
+  "facebook": {
+    "url": "www.facebook.com",
+    "name": "Facebook",
+    "icon": "fa-brands fa-facebook"
+  },
   "instagram": {
     "url": "www.instagram.com",
     "name": "Instagram",
     "icon": "fa-brands fa-instagram"
+  },
+  "medium": {
+    "url": "www.medium.com",
+    "name": "medium",
+    "icon": "fa-brands fa-medium"
+  },
+  "twitch": {
+    "url": "www.twitch.com",
+    "name": "Twitch",
+    "icon": "fa-brands fa-twitch"
   }
 }

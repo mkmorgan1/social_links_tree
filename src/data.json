@@ -1,0 +1,12 @@
+{
+  "twitter": {
+    "url": "www.twitter.com",
+    "name": "Twitter",
+    "icon": "fa-brands fa-twitter"
+  },
+  "instagram": {
+    "url": "www.instagram.com",
+    "name": "Instagram",
+    "icon": "fa-brands fa-instagram"
+  }
+}

@@ -1,27 +1,31 @@
 {
-  "twitter": {
-    "url": "https://www.twitter.com",
-    "name": "Twitter",
-    "icon": "fa-brands fa-twitter"
-  },
-  "facebook": {
-    "url": "https://www.facebook.com/",
-    "name": "Facebook",
-    "icon": "fa-brands fa-facebook"
-  },
-  "instagram": {
-    "url": "https://www.instagram.com",
-    "name": "Instagram",
-    "icon": "fa-brands fa-instagram"
-  },
-  "medium": {
-    "url": "https://www.medium.com",
-    "name": "Medium",
-    "icon": "fa-brands fa-medium"
-  },
-  "twitch": {
-    "url": "https://www.twitch.com",
-    "name": "Twitch",
-    "icon": "fa-brands fa-twitch"
-  }
+  "title": "Welcome!",
+  "icon": "",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com",
+      "icon": "fa-brands fa-twitter"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/",
+      "icon": "fa-brands fa-facebook"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com",
+      "icon": "fa-brands fa-instagram"
+    },
+    {
+      "name": "Medium",
+      "url": "https://www.medium.com",
+      "icon": "fa-brands fa-medium"
+    },
+    {
+      "name": "Twitch",
+      "url": "https://www.twitch.com",
+      "icon": "fa-brands fa-twitch"
+    }
+  ]
 }

@@ -1,14 +1,12 @@
 import React from 'react'
 import Link from './Link.jsx'
-import data from '../data.json'
-data = Object.values(data)
 
 console.log("+++++++++++++", typeof data)
 
-const LinkBox = () => {
+const LinkBox = ({links}) => {
   return(
     <>
-      {data.map((link) => {
+      {links.map((link) => {
         return <Link url={link.url} icon={link.icon} title={link.name}/>
       })}
     </>

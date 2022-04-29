@@ -5,7 +5,7 @@ const LinkBox = ({links}) => {
   return(
     <>
       {links.map((link) => {
-        return <Link url={link.url} icon={link.icon} name={link.name}/>
+        return <Link key={link.name} url={link.url} icon={link.icon} name={link.name}/>
       })}
     </>
   )

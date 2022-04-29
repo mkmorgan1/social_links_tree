@@ -21,6 +21,12 @@
   "homepage": "https://github.com/mkmorgan1/social_links_tree#readme",
   "dependencies": {
     "@babel/preset-react": "^7.16.7",
+    "@fortawesome/fontawesome-free": "^6.1.1",
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
     "express": "^4.17.3",
     "pm2": "^5.2.0",
     "react": "^18.0.0",

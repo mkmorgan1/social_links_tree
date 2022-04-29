@@ -1,12 +1,13 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const Link = ({icon, title, url}) => {
+const Link = ({icon, name, url}) => {
   return (
     <>
       <a href={url}>
-        <div class="link">
-        <i class={icon}></i>
-          <span>&nbsp;{title}</span>
+        <div className='link'>
+        <FontAwesomeIcon icon={icon} />
+          <span>&nbsp;{name}</span>
         </div>
       </a>
     </>

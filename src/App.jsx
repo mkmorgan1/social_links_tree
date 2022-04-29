@@ -1,13 +1,12 @@
 import React from 'react'
 import LinkBox from './Components/LinkBox.jsx'
-import data from './data.json'
-
+import data from './data.js'
 
 const App = () => {
       return (
         <>
-          <div class="link-box">
-            <h1 class="Title">{data.title}</h1>
+          <div className='link-box'>
+            <h1 className='title'>{data.title}</h1>
             <LinkBox links={data.links}/>
           </div>
         </>

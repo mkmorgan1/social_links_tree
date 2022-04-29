@@ -9,7 +9,7 @@ export default {
     {
       name: 'Twitter',
       url: 'https://www.twitter.com',
-      icon: faFacebook
+      icon: faTwitter
     },
     {
       name: 'Facebook',

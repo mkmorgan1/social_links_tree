@@ -19,7 +19,7 @@ body {
   border: 1px;
   border-radius: 10px;
   margin: auto;
-  border-style: dashed;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   padding: 50px 20px;
 }
 
@@ -31,7 +31,7 @@ body {
   font-size: 20px;
   color: black;
   border-radius: 50px;
-  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px, rgba(0, 0, 0, 0.23) 0px 1px 3px;
 }
 
 a {

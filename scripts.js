@@ -1,4 +1,4 @@
-var shell = require("shelljs");
+var shell = require("shelljs")
 
-shell.exec("webpack build");
-shell.exec("node index.js");
+shell.exec("webpack build")
+shell.exec("node index.js")

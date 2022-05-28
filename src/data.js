@@ -1,10 +1,9 @@
-// import { } from '@fortawesome/free-solid-svg-icons'
-// import { } from '@fortawesome/free-regular-svg-icons'
+import { } from '@fortawesome/free-solid-svg-icons'
+import { } from '@fortawesome/free-regular-svg-icons'
 import { faFacebook, faTwitch, faTwitter, faMedium, faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 export default {
   title: 'Welcome!',
-  icon: '',
   links: [
     {
       name: 'Twitter',

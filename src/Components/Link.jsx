@@ -6,8 +6,8 @@ const Link = ({icon, name, url}) => {
     <>
       <a href={url}>
         <div className='link'>
-        <FontAwesomeIcon icon={icon} />
-          <span>&nbsp;{name}</span>
+          <FontAwesomeIcon icon={icon}/>
+          <span>{name}</span>
         </div>
       </a>
     </>

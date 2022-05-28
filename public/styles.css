@@ -23,6 +23,10 @@ body {
   padding: 50px 20px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .link {
   margin: 10px auto;
   max-width: 40vw;
@@ -32,10 +36,6 @@ body {
   color: black;
   border-radius: 50px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px, rgba(0, 0, 0, 0.23) 0px 1px 3px;
-}
-
-a {
-  text-decoration: none;
 }
 
 .link:hover {

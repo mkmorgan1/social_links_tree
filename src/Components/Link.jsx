@@ -7,7 +7,7 @@ const Link = ({icon, name, url}) => {
       <a href={url}>
         <div className='link'>
           <FontAwesomeIcon icon={icon}/>
-          <span>{name}</span>
+          <span className='link-name'>{name}</span>
         </div>
       </a>
     </>

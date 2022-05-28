@@ -41,3 +41,7 @@ a {
 .link:hover {
   box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 1px;
 }
+
+.link-name {
+  padding-left: 20px;
+}

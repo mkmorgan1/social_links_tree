@@ -1,34 +1,34 @@
-import { } from '@fortawesome/free-solid-svg-icons'
+import { faClockRotateLeft, faM} from '@fortawesome/free-solid-svg-icons'
 import { } from '@fortawesome/free-regular-svg-icons'
-import { faFacebook, faTwitch, faTwitter, faMedium, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedinIn, faTwitter, faMedium } from '@fortawesome/free-brands-svg-icons'
 
 export default {
-  title: 'Welcome!',
+  title: 'MKM',
   links: [
     {
-      name: 'Twitter',
-      url: 'https://www.twitter.com',
-      icon: faTwitter
+      name: 'Time Travel Agent',
+      url: '/time-travel-agent',
+      icon: faClockRotateLeft
     },
     {
-      name: 'Facebook',
-      url: 'https://www.facebook.com/',
-      icon: faFacebook
-    },
-    {
-      name: 'Instagram',
-      url: 'https://www.instagram.com',
-      icon: faInstagram
+      name: 'Portfolio',
+      url: '/portfolio',
+      icon: faM
     },
     {
       name: 'Medium',
-      url: 'https://www.medium.com',
+      url: 'https://mkmorgan1994.medium.com/',
       icon: faMedium
     },
     {
-      name: 'Twitch',
-      url: 'https://www.twitch.com',
-      icon: faTwitch
+      name: 'LinkedIn',
+      url: 'https://www.linkedin.com/in/mkmorgan1/',
+      icon: faLinkedinIn
+    },
+    {
+      name: 'Twitter',
+      url: 'https://twitter.com/m_kmorgan',
+      icon: faTwitter
     }
   ]
 }

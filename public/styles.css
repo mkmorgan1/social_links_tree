@@ -14,17 +14,40 @@ body {
   vertical-align: middle;
 }
 
+@media (max-width: 500px) {
+  .link-box {
+    width: 95vw;
+  }
+  .title {
+    font-size: 500%;
+  }
+  .link {
+    max-width: 75vw;
+  }
+}
+
+@media (min-width: 501px) {
+  .link-box {
+    width: 50vw;
+  }
+  .title {
+    font-size: 400%;
+  }
+  .link {
+    max-width: 40vw;
+  }
+}
+
 .link-box {
-  width: 50vw;
   border: 1px;
   border-radius: 10px;
   margin: auto;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   padding: 50px 20px;
 }
+
 .title {
-  font-family: 'Monoton', cursive;
-  font-size: 500%;
+  font-family: "Monoton", cursive;
   margin-bottom: 50px;
 }
 
@@ -34,10 +57,9 @@ a {
 
 .link {
   margin: 10px auto;
-  max-width: 40vw;
   padding: 20px 20px 20px 50px;
   text-align: left;
-  font-size: 20px;
+  font-size: 100%;
   color: black;
   border-radius: 50px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px, rgba(0, 0, 0, 0.23) 0px 1px 3px;
